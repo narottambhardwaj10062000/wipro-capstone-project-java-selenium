@@ -16,7 +16,7 @@ import io.cucumber.testng.CucumberOptions;
 		            "html:target/cucumber-reports.html",
 		            "json:target/cucumber.json",
 		            "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-		            "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+		            // "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
 		        }
 )
 public class LetskodeitTestNGRunner extends AbstractTestNGCucumberTests {
